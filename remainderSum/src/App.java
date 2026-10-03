@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 public class App {
+    //답지와의 차이 더미값 0 이 있기때문에 따로 0인것을 더하지않아도괜찮음
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
